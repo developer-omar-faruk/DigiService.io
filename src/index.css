@@ -10,3 +10,9 @@
     --color-primary:#ffcb05;
     --color-dark:#363732;
 }
+
+@layer components{
+    .company-icon{
+        @apply w-20 h-20 rounded-full border border-primary/60 flex items-center justify-center hover:scale-105 duration-300 transition cursor-pointer;
+    }
+}

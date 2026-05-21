@@ -3,6 +3,7 @@ import p1 from '../assets/p1.png'
 import p2 from '../assets/p2.png'
 import p3 from '../assets/p3.png'
 import p4 from '../assets/p4.jpg'
+import hero2 from '../assets/hero2.jpg'
 
 function Hero() {
   return (
@@ -20,13 +21,17 @@ function Hero() {
         <h1 className='text-center text-dark text-4xl sm:text-5xl md:text-6xl lg:text-7xl mb-6 '>
           <span>We Help Brands Grow With</span>
           <br />
-          <span className='text-primary me-2'>Performance</span>
-          <span>Marketing</span>
+          
+          <span> <span className='text-primary me-2'>Performance</span> Marketing</span>
         </h1>
         <p className='max-w-xl mx-auto font-thin text-2xl text-dark text-center mb-12'>At our agency, we take pride in delivering impactful solutions that cambine creativity, starategy, and technology.</p>
         <div className='md-6 flex items-center justify-center gap-6'>
           <button className='px-6 py-2.5 bg-primary rounded-full text-dark font-semibold cursor-pointer'>Contact Me</button>
           <button className='px-6 py-2.5 bg-dark rounded-full text-white font-semibold cursor-pointer'>Digital Market</button>
+        </div>
+        {/* Image */}
+        <div className='max-w-5xl mx-auto mt-16 rounded-2xl shadow overflow-hidden'>
+          <img className='w-full h-full object-cover' src={hero2} alt="" />
         </div>
       </div>
     </div>
