@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <div className='w-full fixed top-0 z-50 backdrop-blur-2xl'>
-      <div className='flex items-center justify-between px-6 py-8 sm:px-12 md:px-24 lg:px-40'>
+      <div className='flex items-center justify-between px-6 py-8 sm:px-10 md:px-16 lg:px-40'>
         <div>
             <span className='text-3xl font-bold text-dark'>DigiService.io</span>
             <div className='w-6 h-2 bg-primary rounded-full'></div>
