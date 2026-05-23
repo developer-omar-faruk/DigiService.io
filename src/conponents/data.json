@@ -1,0 +1,67 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "service": "Web Development",
+      "dis": "We create fast, responsive, and user-friendly websites tailored to your business needs.",
+      "icon": "FaCode"
+    },
+    {
+      "id": 2,
+      "service": "Graphic Design",
+      "dis": "Eye-catching visuals that speak your brand's language. Our graphic design services create memorable brand experiences.",
+      "icon": "FaPaintBrush"
+    },
+    {
+      "id": 3,
+      "service": "Digital Marketing",
+      "dis": "Grow your online presence with our strategic digital marketing services.",
+      "icon": "FaBullhorn"
+    },
+    {
+      "id": 4,
+      "service": "Mobile App Development",
+      "dis": "Transform your ideas into functional, high-performance mobile apps.",
+      "icon": "FaMobileAlt"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Website",
+      "dis": "Developed a fully responsive and high-performance e-commerce platform.",
+      "img": "/images/work1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Social Media Campaign",
+      "dis": "Designed and executed a 3-month digital marketing campaign.",
+      "img": "/images/work2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Fitness App",
+      "dis": "Built a web application for a local Gym service.",
+      "img": "/images/work3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Organic Skincare Brand",
+      "dis": "Created a complete brand identity including logo and packaging for an organic skincare startup.",
+      "img": "/images/work4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "B2B Company CRM",
+      "dis": "Built a custom CRM system to streamline lead tracking and sales analytics.",
+      "img": "/images/work5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Educational Institute Website",
+      "dis": "Redesigned and optimized the website of an educational institute.",
+      "img": "/images/work6.jpg"
+    }
+  ]
+}

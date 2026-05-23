@@ -1,6 +1,19 @@
 import React from 'react'
+import {
+  FaCode,
+  FaPaintBrush,
+  FaBullhorn,
+  FaMobileAlt
+} from "react-icons/fa";
+
+import data from './data.json'
 
 function Services() {
+
+  const icons={
+    FaCode,FaPaintBrush,FaBullhorn,FaMobileAlt
+  }
+
   return (
     <div id='Services' className='py-20'>
       <div className='container mx-auto px-6 sm:px-12 md:px-24 lg:px-40'>
@@ -10,7 +23,12 @@ function Services() {
         </div>
         {/* Services Data display */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-            
+          <div>
+            {data.services.map((d)=>(
+              <p>{d.service}</p>
+              // i want to use icon there
+            ))}
+          </div>
         </div>
       </div>
     </div>
