@@ -4,6 +4,7 @@ import Company from '../conponents/Company'
 import Services from '../conponents/Services'
 import Work from '../conponents/Work'
 import TeamMember from '../conponents/TeamMember'
+import Contact from '../conponents/Contact'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Services/>
       <Work/>
       <TeamMember/>
+      <Contact/>
     </div>
   )
 }
