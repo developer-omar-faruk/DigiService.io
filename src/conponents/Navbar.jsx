@@ -34,9 +34,9 @@ function Navbar() {
       {/* mobile menu items */}
       {
         showMenu && (
-            <div className='md:hidden flex flex-col items-center justify-center space-y-6 fixed bg-primary/50  w-64 top-0 right-0 h-screen'>
+            <div className='md:hidden flex flex-col items-center justify-center space-y-6 fixed bg-primary/80  w-64 top-0 right-0 h-screen'>
                 <a onClick={()=> setShowMenu(!showMenu)} href="#Home">Home</a>
-                <a onClick={()=> setShowMenu(!showMenu)} href="#Service">Services</a>
+                <a onClick={()=> setShowMenu(!showMenu)} href="#Services">Services</a>
                 <a onClick={()=> setShowMenu(!showMenu)} href="#Work">Our Work</a>
                 <a onClick={()=> setShowMenu(!showMenu)} href="#Contact">Contact Us</a>
             </div>

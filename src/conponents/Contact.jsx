@@ -4,7 +4,7 @@ import { FaArrowRightLong, FaUser } from 'react-icons/fa6'
 function Contact() {
   return (
     <div id='Contact' className='py-20 bg-white'>
-      <div className='container mx-auto px-6'>\
+      <div className='container mx-auto px-6'>
         <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl text-dark mb-6">Reach out to us</h1>
             <p className="text-dark/60 max-w-xl mx-auto">let's talk! Whether it's a quick question or a big project, we're just a message away.</p>
